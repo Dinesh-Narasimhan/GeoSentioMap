@@ -27,7 +27,6 @@ GeoSentioMap is an AI-powered tool that maps the emotional feel of public places
 ## 🚀 Try It Live
 
 👉 **[Live App](https://geosentiomap.streamlit.app)**  
-(*Replace with actual link after deployment*)
 
 ## 🔐 License & Credits
 
