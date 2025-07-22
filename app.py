@@ -64,7 +64,7 @@ class EmotionNet(nn.Module):
         return self.classifier(combined)
 
 model = EmotionNet().to(device)
-model.load_state_dict(torch.load("emotion_model_final.pt", map_location=device))
+model.load_state_dict(torch.load("emotion_model_final.pt", map_location=device, weights_only=False))
 model.eval()
 
 # App UI
